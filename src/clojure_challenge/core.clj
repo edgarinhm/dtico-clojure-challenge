@@ -5,7 +5,7 @@
 
 (defn -main
  []
- (let [p1 (p1/get-all-invoice-items-by-given-conditions invoice)]
+ (let [p1 ( p1/get-all-invoice-items-by-given-conditions invoice)]
    (println "Starting clojure challenge p1" p1)))
 
 
